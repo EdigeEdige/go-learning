@@ -8,7 +8,7 @@ import (
 func main() {
 	radius := 5.0
 
-	circleRadius := math.Pi * radius * radius
+	circleArea := math.Pi * radius * radius
 
-	fmt.Printf("Радиус: %.f, площадь: %.2f\n", radius, circleRadius)
+	fmt.Printf("Радиус: %.0f, площадь: %.2f\n", radius, circleArea)
 }
